@@ -6,17 +6,15 @@
 
         <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="/js/scripts.js"></script>
 
-        <!-- Styles -->
-        <style>
-           
-        </style>
+
     </head>
+
     <body>
         <h1>php test</h1>
+        <img src="/img/showbk1.jpeg" alt="Banner" >
         @if(10>5)
         <p>a condição é true</p>
         @endif
@@ -39,7 +37,7 @@
 
         @endfor
 
-        
+
         @foreach($nomes as $nomes)
         <p>{{$loop->index}}</p>
         <p> {{$nomes}}</p>
