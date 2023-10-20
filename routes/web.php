@@ -36,6 +36,6 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/produtos', function () {
+    return view('produtos');
 });

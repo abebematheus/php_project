@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.main')
 
-        <title>Laravel</title>
+@section('title', 'ABEBEMATHEUS')
 
-        <link rel="stylesheet" href="/css/styles.css">
-        <script src="/js/scripts.js"></script>
+@section ('content')
 
-
-    </head>
-
-    <body>
         <h1>php test</h1>
         <img src="/img/showbk1.jpeg" alt="Banner" >
         @if(10>5)
@@ -57,5 +48,4 @@
 
         {{-- notas --}}
 
-    </body>
-</html>
+        @endsection
