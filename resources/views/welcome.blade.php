@@ -39,6 +39,7 @@
 
         @endfor
 
+        
         @foreach($nomes as $nomes)
         <p>{{$loop->index}}</p>
         <p> {{$nomes}}</p>
