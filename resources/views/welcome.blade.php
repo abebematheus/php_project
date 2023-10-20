@@ -28,7 +28,7 @@
         @elseif ($nome == "Matheus")
         <p>O nome é {{$nome}} e ele tem {{$idade}} anos e trabalha como {{$profissão}}.</p> 
         @else
-        <p>O nome não é pedro </p>
+        <p>O nome não é Pedro </p>
         @endif
 
     </body>
